@@ -1,0 +1,61 @@
+.card{
+    width: 500px;
+}
+
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: left; }
+
+
+.form{
+    display: inline-block;
+    align-items: flex-end;
+    
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.poster{
+    width: 100%;
+}
+
+.jumbotron{
+    padding: 1rem 1rem;
+    background-color: white;
+    border-style: dashed;
+    border-color: black;
+}
+
+.rating{
+    font-weight: 800;
+    color: #E50914;
+}
+
+.background-video{
+    background-color: palegoldenrod;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.list{
+    padding-top: 50px;
+}
