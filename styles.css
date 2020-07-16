@@ -11,6 +11,10 @@ h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; fo
     
 }
 
+
+h3{
+    padding-top: 20px;
+}
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;

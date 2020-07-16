@@ -92,7 +92,7 @@ function displayMovieData(movie) {
     let recommendedList = fetch(url)
         .then((response) => response.json())
         .then((data) => {
-
+            document.getElementById('heading-rm').innerHTML = "Our Recommendations";
             let recommendedMovies = data.results.forEach(element => {
                 const recom = `<li class="list-group-item">${element.title}</li>`;
                 DispRecom.innerHTML += recom;
@@ -108,12 +108,11 @@ function displayMovieData(movie) {
         .then((response) => response.json())
         .then((data) => {
 
-
-
             let videoList = data.results.forEach(element => {
                 const video = `<iframe class="embed-responsive-item" id="player" type="text/html" width="480" height="340"
              src="https://www.youtube.com/embed/${element.key}?enablejsapi=1&origin=http://example.com"
              frameborder="0"></iframe>`;
+                
                 DispVideo.innerHTML += video;
             })
 
